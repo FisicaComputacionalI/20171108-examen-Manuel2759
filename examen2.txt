@@ -1,0 +1,24 @@
+//Juan Manuel Badillo Serrano
+//El programa ya tiene un inicia con un valor dado x=1, así que se inicia un ciclo cuando x<=5
+//si es que lo es, primero ve si el numero "x" es divisible entre 3, si no lo es
+//imprime x y luego le suma 2, si lo es, simplemente suma 2, cuando el numero "x" es mayor
+//que 5, entonces se termina el ciclo e imprime x.
+
+
+//Se inicia el programa
+#include <iostream>
+using namespace std;
+int main(){
+//El valor de x ya está dado
+  int x=1;
+  //Se inicia el ciclo
+  while(x<=5){
+    if(x%3==0)
+    x=x+2;
+    else
+      cout<<"el valor de x es "<<x<<endl;
+    x=x+2;
+    }
+    cout<<"El valor de x es "<<x<<endl;
+  return 0;
+}
